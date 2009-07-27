@@ -8,7 +8,7 @@ ExtMVC.setup({
   name:        "MyApp",
   
   launch: function() {
-    // this.menu = new GetIt.views.layout.Menu({
+    // this.menu = new Ext.tree.TreePanel({
     //   region   : 'west',
     //   width    : 230,
     //   listeners: {
