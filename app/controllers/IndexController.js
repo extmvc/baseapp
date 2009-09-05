@@ -3,15 +3,8 @@
  * @extends MyApp.controllers.ApplicationController
  * Default root controller
  */
-MyApp.controllers.IndexController = Ext.extend(MyApp.controllers.ApplicationController, {
-  name: 'index',
-  
-  /**
-   * Renders the home page into the main TabPanel
-   */
+ExtMVC.registerController("index", {
   index: function() {
-    var view = this.render("Index");
-    
-    this.addTo.setActiveTab(view);
+    this.render('index');
   }
 });

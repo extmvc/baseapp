@@ -5,6 +5,6 @@
  * to be shared amongst other application controllers, and make the other controllers in the
  * application extend this one
  */
-MyApp.controllers.ApplicationController = Ext.extend(ExtMVC.controller.CrudController, {
-  
+ExtMVC.registerController("application", {
+  extend: "controller"
 });
